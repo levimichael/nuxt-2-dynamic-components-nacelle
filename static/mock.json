@@ -1,0 +1,61 @@
+{
+  "componentsList": [
+    {
+      "id": 1,
+      "name": "Hero",
+      "props": { "title": "Hello World, this is the hero." }
+    },
+    {
+      "id": 2,
+      "name": "PageSection",
+      "props": {
+        "sectionData": {
+          "componentsList": [
+            {
+              "id": 3,
+              "name": "RichText",
+              "props": {
+                "content": "<h2>We are fancy now</h2><p>This is rich text in a page section!</p><p>This is a second paragraph. It has a few more words in it.</p>",
+                "columns": 2
+              }
+            },
+            {
+              "id": 4,
+              "name": "RichText",
+              "props": {
+                "content": "<h2>More things</h2><p>You look great, rested even.</p><ul><li>List item 1</li><li>List item 2</li></ul>",
+                "columns": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "PageSection",
+      "props": {
+        "sectionData": {
+          "componentsList": [
+            {
+              "id": 3,
+              "name": "RichText",
+              "props": {
+                "content": "<h2>Another thing...</h2><p>Just have fun and enjoy your day.</p>",
+                "columns": 1
+              }
+            },
+            {
+              "id": 4,
+              "name": "RichText",
+              "props": {
+                "content": "<h2>Even more things</h2><p>Don't forget to wash your sheets.</p><ul><li>List item 1</li><li>List item 2</li></ul>",
+                "columns": 2
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
